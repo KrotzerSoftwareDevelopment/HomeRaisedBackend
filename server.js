@@ -16,7 +16,7 @@ const app = express();
 // }).catch((error) => console.log(error.reason));
 
 const mongodbUrl = config.MONGODB_URL;
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/homeraisedcairnsserver', {
+mongoose.connect(process.env.MONGODB_URL || 'mongodb+srv://homeraisedcairns:YOURDFSbRBLp1CQ8@homeraisedcluster.bpphp.mongodb.net/homeraisedcluster?retryWrites=true&w=majority', {
   //Commenting this section out makes the login work and puppies
   useNewUrlParser: true,
   useUnifiedTopology: true,
