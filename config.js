@@ -6,7 +6,7 @@ dotenv.config();
 export default {
 
   PORT: process.env.PORT || 5000,
-  MONGODB_URL: process.env.MONGODB_URL || 'mongodb+srv://homeraisedcairns:Funtime247@homeraisedcluster.bpphp.mongodb.net/homeraisedcairns?retryWrites=true&w=majority',
+  MONGODB_URL: process.env.MONGODB_URL || 'example cluster?retryWrites=true&w=majority',
   JWT_SECRET: process.env.JWT_SECRET || 'somethingsecret',
   PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID || 'sb',
   accessKeyId: process.env.accessKeyId || 'accessKeyId',
